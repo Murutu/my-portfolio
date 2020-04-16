@@ -1,0 +1,24 @@
+.navbar-brand img{
+    height: 30px;
+    width: 30px;
+}
+
+.profile{
+    float: left;
+    padding: 30px;  
+}
+
+.m{
+    background-image: url(/images/awge.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 400px;
+
+}
+
+#entry{
+    text-align: center;
+    padding-top: 65px;
+    font-size: medium;
+    color: aliceblue;
+}
