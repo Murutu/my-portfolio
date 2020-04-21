@@ -3,7 +3,7 @@
     width: 30px;
 }
 
-.profile{
+#profile{
     float: left;
     padding: 30px;  
 }
@@ -22,3 +22,106 @@
     font-size: medium;
     color: aliceblue;
 }
+
+.n{
+    background-image: url(/images/wavy.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.socials{ 
+        
+    text-align: center; 
+    margin-left: 10px;
+    margin-top:50px;
+} 
+
+
+
+.about-heading{
+    padding-top: 5px;
+}
+
+.about-details{
+    text-align: center;
+}
+
+.logo {
+    float:  left;
+    width:  300px;
+    height: 200px;
+    padding: 30px; 
+}
+
+.section-heading{
+    text-align: center;
+}
+
+.s{
+
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: center;
+    color: rgb(24, 20, 19);
+    background-color: rgb(243, 239, 234);
+
+}
+
+
+.p{
+
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: center;
+    color: rgb(24, 20, 19);
+    background-color: rgb(214, 147, 74);
+
+}
+
+.w{
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.features{
+    
+    color: rgb(22, 2, 2);
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.features figure{
+    margin: auto;
+    width: 500px;
+    padding: 40px;
+    text-transform: uppercase;
+}
+
+.features figure img{
+    width: 400px;
+}
+
+footer{
+  background: black;
+  text-align: center;  
+}
+
+.skills {
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.skills figure{
+    margin: auto;
+}
+
+
