@@ -9,7 +9,7 @@
 }
 
 .m{
-    background-image: url(/images/awge.jpg);
+    background-image: url(images/awge.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     height: 400px;
@@ -24,7 +24,7 @@
 }
 
 .n{
-    background-image: url(/images/wavy.jpg);
+    background-image: url(images/wavy.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     height: 420px;
