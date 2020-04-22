@@ -95,13 +95,13 @@
     padding: 100px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .features figure{
     margin: auto;
     width: 500px;
     padding: 40px;
-    text-transform: uppercase;
 }
 
 .features figure img{
@@ -110,7 +110,8 @@
 
 footer{
   background: black;
-  text-align: center;  
+  text-align: center;
+  display: block;  
 }
 
 .skills {
@@ -122,6 +123,20 @@ footer{
 
 .skills figure{
     margin: auto;
+}
+
+@media screen and (max-width: 715px) {
+    .features{
+        display:block
+    }
+  
+}
+
+@media screen and (max-width: 715px) {
+    .skills{
+        display:block
+    }
+  
 }
 
 
